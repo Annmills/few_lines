@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      HTML {
+        background: url("img/src.png") 50% 0 no-repeat;
+      }
+      BODY {
+        opacity: 0.5;
+      }
+    </style>
+    <meta charset="UTF-8" />
+
+    <title>Doc0ument</title>
+    <link rel="stylesheet" href="css/main.css" />
+
+    <link href="../node_modules/pixel-glass/styles.css" rel="stylesheet" />
+    <script src="../node_modules/pixel-glass/script.js"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <!-- Контейнер для того, чтобы задать ширину всему конетнту -->
+      <div class="container header__container">
+        <div class="header-left">
+          <!-- Выбор города в левой части -->
+          <select class="header__drop drop">
+            <option value="hide">-- Город --</option>
+            <option value="Irkutsk">Иркутск</option>
+            <option value="Moskva">Москва</option>
+            <option value="Samara">Самара</option>
+            <option value="Novosibirsk">Новосибирск</option>
+            <option value="Novgorod">Новгород</option>
+            <option value="Petrburg">Питер</option>
+          </select>
+          <!-- меню по категориям -->
+          <nav class="header__nav nav">
+            <ul class="list-reset nav__list">
+              <li class="nav__item">
+                <img
+                  class="nav__img"
+                  src="img/horse.svg"
+                  alt="Childhood logo"
+                />
+                <a class="nav__link" href="#">Для детей</a>
+              </li>
+              <li class="nav__item">
+                <img class="nav__img" src="img/money_SM.jpg" alt="ruble logo" />
+                <a class="nav__link" href="#">Бесплатно</a>
+              </li>
+              <li class="nav__item">
+                <img class="nav__img" src="img/money_SM.jpg" alt="card logo" />
+                <a class="nav__link" href="#">Пушкинская карта</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- блоки справа  -->
+        <div class="header__right">
+          <!-- выбор тега в правой части -->
+          <select class="header-tag__drop drop">
+            <option value="hide">-- Теги --</option>
+            <option value="Irkutsk">#1D1D1F</option>
+            <option value="Moskva">#1D1D1F</option>
+            <option value="Samara">#1D1D1F</option>
+          </select>
+        </div>
+      </div>
+      <nav class="header__nav nav">
+        <ul class="list-reset nav__list">
+          <li class="nav__item">
+            <h1 class="header-bottom__nav">Фестивали</h1>
+          </li>
+          <li class="nav__item">
+            <h1 class="header-bottom__nav">Театры</h1>
+          </li>
+          <li class="nav__item">
+            <h1 class="header-bottom__nav">Концерты</h1>
+          </li>
+          <li class="nav__item">
+            <h1 class="header-bottom__nav">Выставки</h1>
+          </li>
+          <li class="nav__item">
+            <h1 class="header-bottom__nav">Кино</h1>
+          </li>
+          <li class="nav__item">
+            <h1 class="header-bottom__nav">Встречи</h1>
+          </li>
+          <li class="nav__item">
+            <h1 class="header-bottom__nav">Экскурсии</h1>
+          </li>
+          <li class="nav__item">
+            <h1 class="header-bottom__nav">Другое</h1>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <secton class="poster">
+      <div class="poster__menu">
+        <div class="poster__left">
+          <nav class="section__nav nav">
+            <ul class="list-reset nav__list">
+              <li class="nav__item">Все</li>
+              <li class="nav__item">Сегодня</li>
+              <li class="nav__item">Завтра</li>
+              <li class="nav__item">выходные</li>
+            </ul>
+          </nav>
+          <img src="img/calendar_SM.jpg" alt="calendar" class="calendar" />
+        </div>
+        <div class="poster__right">
+          <span class="online">Онлайн</span>
+          <label class="secton-switch">
+            <input type="switsh__checkbox" />
+            <span class="switch__slider"></span>
+          </label>
+        </div>
+      </div>
+
+      .
+    </secton>
+  </body>
+</html>
